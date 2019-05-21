@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Grid App</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar scrollX="true">
+    <ion-button fill="outline">Home</ion-button>
+    <ion-button fill="outline">Electronics</ion-button>
+    <ion-button fill="outline">Her</ion-button>
+    <ion-button fill="outline">Him</ion-button>
+    <ion-button fill="outline">Kids</ion-button>
+    <ion-button fill="outline">Other</ion-button>
+  </ion-toolbar>
+
+  <!-- references new component we created.-->
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let recipe of recipes" class="ion-no-margin">
+        <!-- it builds a grid then knows to populate it using the loop! -->
+        <app-recipe-item [recipeItem]="recipe"></app-recipe-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-footer class="main-footer">
+    <ion-toolbar>
+      <ion-button fill="clear" class="footerbtn ">
+        <ion-icon name="heart"></ion-icon>
+        <span>Free</span>
+      </ion-button>
+      <ion-button fill="clear" class="footerbtn">
+        <ion-icon name="add-circle"></ion-icon>
+        <span>Give away</span>
+      </ion-button>
+      <ion-button fill="clear" class="footerbtn">
+        <ion-icon name="chatboxes"></ion-icon>
+        <span>Message</span>
+      </ion-button>
+    </ion-toolbar>
+  </ion-footer>
+
+</ion-content>

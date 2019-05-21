@@ -1,0 +1,15 @@
+<!-- *ngFor="let recipe of recipes" no longer used since component was introduced.-->
+<ion-card class="ion-no-margin feed-card" [routerLink]="['./', recipeItem.id]">
+  <!-- loop though all recipies in recipies.page.ts module.-->
+  <ion-img [src]="recipeItem.imageUrl"></ion-img><!-- [isPropertybinding] in this context-->
+  <div class="feed-image-circles">
+    <ion-icon name="radio-button-off"></ion-icon>
+    <ion-icon name="radio-button-off"></ion-icon>
+    <ion-icon name="radio-button-off"></ion-icon>
+  </div>
+</ion-card>
+<div class="feed-item-lable">
+  <ion-label> {{ recipeItem.title }} </ion-label>
+  <!-- string interprelation -->
+  <ion-label><strong> {{ recipeItem.distance }}km </strong></ion-label> <!-- string interprelation -->
+</div>

@@ -1,0 +1,17 @@
+.feed-item-lable {
+    display:flex;
+    justify-content: space-between;
+    margin: .4em .2em 0 .2em;
+    font-size:14px;
+}
+
+.feed-image-circles {
+    position: absolute;
+    left: .4em;
+    z-index: 1000;
+    bottom: 0;
+}
+
+.feed-card {
+    box-shadow:none;
+}
