@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-toolbar scrollX="true">
+  <ion-toolbar scrollY="true">
     <ion-button fill="outline">Home</ion-button>
     <ion-button fill="outline">Electronics</ion-button>
     <ion-button fill="outline">Her</ion-button>
@@ -17,7 +17,7 @@
   <!-- references new component we created.-->
   <ion-grid>
     <ion-row>
-      <ion-col size="6" *ngFor="let recipe of recipes" class="ion-no-margin">
+      <ion-col size="6" size-md="4" size-lg="2" *ngFor="let recipe of recipes" class="ion-no-margin">
         <!-- it builds a grid then knows to populate it using the loop! -->
         <app-recipe-item [recipeItem]="recipe"></app-recipe-item>
       </ion-col>

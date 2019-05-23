@@ -30,7 +30,7 @@ export class RecipesService {
       id: 'r3',
       title: 'Table 1',
       chance: 1,
-      category: 'home',
+      category: 'her',
       distance: 1,
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCQiO0KIQyYz9o51eq3nRRuc9sOhDIBKx0L4H0wBE6dDTSJvSr',
       ingredients: ['French fries', 'Beef', 'dog food']
@@ -39,7 +39,7 @@ export class RecipesService {
       id: 'r4',
       title: 'furniture',
       chance: 1,
-      category: 'home',
+      category: 'her',
       distance: 1,
       imageUrl: 'https://5.imimg.com/data5/CG/MQ/MY-59179512/wooden-double-bed-250x250.jpg',
       ingredients: ['French fries', 'Beef', 'dog food']
@@ -48,7 +48,7 @@ export class RecipesService {
       id: 'r5',
       title: 'Table',
       chance: 1,
-      category: 'home',
+      category: 'him',
       distance: 1,
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuhgDNwV-vyhmxVzPUwcvMXFnH2wNgbOHjnCcg_8NeXtyDdMCg',
       ingredients: ['French fries', 'Beef', 'dog food']
@@ -57,7 +57,7 @@ export class RecipesService {
       id: 'r6',
       title: 'Bed 2',
       chance: 1,
-      category: 'home',
+      category: 'him',
       distance: 1,
       imageUrl: 'https://5.imimg.com/data5/CG/MQ/MY-59179512/wooden-double-bed-250x250.jpg',
       ingredients: ['French fries', 'Beef', 'dog food']
@@ -66,7 +66,7 @@ export class RecipesService {
       id: 'r7',
       title: 'Draws',
       chance: 1,
-      category: 'home',
+      category: 'her',
       distance: 1,
       imageUrl: 'https://www.rodgersofyork.co.uk/images/products/medium/24985.jpg',
       ingredients: ['French fries', 'Beef', 'dog food']
@@ -75,7 +75,7 @@ export class RecipesService {
       id: 'r8',
       title: 'Draws2',
       chance: 1,
-      category: 'home',
+      category: 'child',
       distance: 1,
       imageUrl: 'https://www.rodgersofyork.co.uk/images/products/medium/24985.jpg',
       ingredients: ['French fries', 'Beef', 'dog food']
@@ -84,7 +84,7 @@ export class RecipesService {
       id: 'r9',
       title: 'Draws3',
       chance: 1,
-      category: 'home',
+      category: 'child',
       distance: 1,
       imageUrl: 'https://www.rodgersofyork.co.uk/images/products/medium/24985.jpg',
       ingredients: ['French fries', 'Beef', 'dog food']
@@ -93,7 +93,7 @@ export class RecipesService {
       id: 'r10',
       title: 'Draws4',
       chance: 1,
-      category: 'home',
+      category: 'child',
       distance: 1,
       imageUrl: 'https://www.rodgersofyork.co.uk/images/products/medium/24985.jpg',
       ingredients: ['French fries', 'Beef', 'dog food']
