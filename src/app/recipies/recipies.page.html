@@ -5,19 +5,14 @@
 </ion-header>
 
 <ion-content>
-  <ion-toolbar scrollY="true">
-    <ion-button fill="outline">Home</ion-button>
-    <ion-button fill="outline">Electronics</ion-button>
-    <ion-button fill="outline">Her</ion-button>
-    <ion-button fill="outline">Him</ion-button>
-    <ion-button fill="outline">Kids</ion-button>
-    <ion-button fill="outline">Other</ion-button>
-  </ion-toolbar>
+  <!-- calls in category menu -->
+  <app-category-buttons class="slideCat"></app-category-buttons>
+  <!-- https://medium.com/@omkarporje/writing-onclick-custom-pipes-filters-in-angular-2-a6bf38874b9e -->
 
   <!-- references new component we created.-->
   <ion-grid>
     <ion-row>
-      <ion-col size="6" size-md="4" size-lg="2" *ngFor="let recipe of recipes" class="ion-no-margin">
+      <ion-col size="6" size-sm="12" size-md="4" size-lg="2" *ngFor="let recipe of recipes" class="ion-no-margin">
         <!-- it builds a grid then knows to populate it using the loop! -->
         <app-recipe-item [recipeItem]="recipe"></app-recipe-item>
       </ion-col>

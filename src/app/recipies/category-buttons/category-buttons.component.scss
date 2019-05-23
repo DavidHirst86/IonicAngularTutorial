@@ -1,0 +1,29 @@
+
+
+.catbtn {
+    color: #000;
+    --border-radius:20px;
+}
+.home {
+    --border-color: var(--ion-color-home); /* defined in variables.scss */
+}
+.el {
+    --border-color: var(--ion-color-el);
+}
+.her {
+    --border-color: var(--ion-color-her);
+}
+
+.him {
+    --border-color: var(--ion-color-him);
+}
+
+.kids {
+    --border-color: var(--ion-color-kids);
+}
+
+.other {
+    --border-color: var(--ion-color-other);
+}
+
+

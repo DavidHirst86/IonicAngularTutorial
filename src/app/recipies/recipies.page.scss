@@ -7,3 +7,8 @@
 .footerbtn {
     --color:black;
 }
+
+.slideCat {
+    display: flex;
+    overflow-x: scroll;
+}
